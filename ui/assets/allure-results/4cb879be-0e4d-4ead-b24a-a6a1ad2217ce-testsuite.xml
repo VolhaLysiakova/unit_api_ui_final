@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665004654286' stop='1665004655696'>
+    <name>Main page Arena: the User is able to invite a friend to play only a Rated and Non-rated game, but not FOA Rated game'</name>
+    <title>Main page Arena: the User is able to invite a friend to play only a Rated and Non-rated game, but not FOA Rated game'</title>
+    <test-cases>
+        <test-case start='1665004654286' status='passed' stop='1665004654287'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004654287' status='passed' stop='1665004654596'>
+            <name>Given the User opens "Home" page via url</name>
+            <title>Given the User opens "Home" page via url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004654597' status='passed' stop='1665004655489'>
+            <name>When the User clicks on "FOA Rated" button on "Home" page</name>
+            <title>When the User clicks on "FOA Rated" button on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655489' status='passed' stop='1665004655515'>
+            <name>Then the User sees that "Invite a friend" button is "disabled" on "Home" page</name>
+            <title>Then the User sees that "Invite a friend" button is "disabled" on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655515' status='passed' stop='1665004655594'>
+            <name>When the User clicks on "Rated" button on "Home" page</name>
+            <title>When the User clicks on "Rated" button on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655594' status='passed' stop='1665004655609'>
+            <name>Then the User sees that "Invite a friend" button is "enabled" on "Home" page</name>
+            <title>Then the User sees that "Invite a friend" button is "enabled" on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655609' status='passed' stop='1665004655681'>
+            <name>When the User clicks on "Non-rated" button on "Home" page</name>
+            <title>When the User clicks on "Non-rated" button on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655681' status='passed' stop='1665004655696'>
+            <name>Then the User sees that "Invite a friend" button is "enabled" on "Home" page</name>
+            <title>Then the User sees that "Invite a friend" button is "enabled" on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655696' status='passed' stop='1665004655696'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

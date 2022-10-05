@@ -1,0 +1,41 @@
+{
+    "name": "autoqa_unit_api_ui_final",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "unit:test": "mocha --config=./unit/.mocharc.json",
+        "api:test": "jest --config=./api/jest.config.js",
+        "ui:test": "wdio ui/config/wdio.conf.ts",
+        "ui:report": "allure generate ui/assets/allure-results --clean -o ui/assets/allure-report && allure open ./ui/assets/allure-report"
+    },
+    "author": "Volha Lysiakova",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "^8.6.0",
+        "@types/chai": "^4.3.3",
+        "@types/jest": "^29.1.1",
+        "@types/mocha": "^10.0.0",
+        "@types/superagent": "^4.1.15",
+        "@wdio/allure-reporter": "^7.25.1",
+        "@wdio/cli": "^7.25.1",
+        "@wdio/cucumber-framework": "^7.25.1",
+        "@wdio/local-runner": "^7.25.1",
+        "@wdio/spec-reporter": "^7.25.1",
+        "chai": "^4.3.6",
+        "chromedriver": "^106.0.1",
+        "geckodriver": "^3.0.2",
+        "jest": "^29.1.2",
+        "mocha": "^10.0.0",
+        "randomstring": "^1.2.2",
+        "superagent": "^8.0.2",
+        "ts-jest": "^29.0.3",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.8.4",
+        "wdio-chromedriver-service": "^8.0.0",
+        "wdio-geckodriver-service": "^4.0.0"
+    },
+    "dependencies": {
+        "allure-commandline": "^2.18.1"
+    }
+}

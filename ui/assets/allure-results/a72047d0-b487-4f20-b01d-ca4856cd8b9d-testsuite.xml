@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1665004655700' stop='1665004656982'>
+    <name>Main page Arena: the User is able to upgrade Free account from Homepage'</name>
+    <title>Main page Arena: the User is able to upgrade Free account from Homepage'</title>
+    <test-cases>
+        <test-case start='1665004655701' status='passed' stop='1665004655701'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655701' status='passed' stop='1665004655965'>
+            <name>Given the User opens "Home" page via url</name>
+            <title>Given the User opens "Home" page via url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004655966' status='passed' stop='1665004656803'>
+            <name>When the User clicks on "FOA Rated" button on "Home" page</name>
+            <title>When the User clicks on "FOA Rated" button on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004656803' status='passed' stop='1665004656936'>
+            <name>And the User clicks on "Upgrade now" button on "Home" page</name>
+            <title>And the User clicks on "Upgrade now" button on "Home" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004656936' status='passed' stop='1665004656981'>
+            <name>Then the User sees "New Pro account" label on "Home" page with "New Pro account" inner text</name>
+            <title>Then the User sees "New Pro account" label on "Home" page with "New Pro account" inner text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1665004656981' status='passed' stop='1665004656981'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.91'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
