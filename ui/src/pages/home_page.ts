@@ -87,7 +87,7 @@ export class HomePage extends BasePage {
     }
 
     get appearanceButton() {
-        return new Element('[class*="gzYVOq"]') 
+        return new Element('[class*="fZPRpj"]') 
     }
 
     get standardColorBoard() {
@@ -107,7 +107,7 @@ export class HomePage extends BasePage {
     }
 
     get chessBoard() {
-        return $('[alt*="chessboard"]') 
+        return new Element ('[alt*="chessboard"]') 
     }
 
     get newProAccountLabel() {

@@ -46,4 +46,9 @@ export class Element {
         await expect(this.element).not.toBeClickable()
     }
 
+    public async expectToHaveAttrContaining (attr: string, text: string) {
+        await this.waitForDisplayed()
+        await expect(await this.element).toHaveAttrContaining(attr, text)
+    }
+
 }

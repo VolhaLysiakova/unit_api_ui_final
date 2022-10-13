@@ -13,13 +13,13 @@ When (/^the User logs in with "(.+)" account$/, async (account: ACCOUNT_TYPES) =
 Then (/^the User sees board with "(.+)" color on "Home" page$/, async (color: BOARD_COLOR) => {
     switch (color) {
         case BOARD_COLOR.STANDARD:
-            await expect(homePage.chessBoard).toHaveAttrContaining('alt', 'standart chessboard');
+            await homePage.chessBoard.expectToHaveAttrContaining('alt', 'standart chessboard');
             break;
         case BOARD_COLOR.TEXTBOOK:
-            await expect(homePage.chessBoard).toHaveAttrContaining('alt', 'textbook chessboard');
+            await homePage.chessBoard.expectToHaveAttrContaining('alt', 'textbook chessboard');
             break;
         case BOARD_COLOR.WORLD_CHESS:
-            await expect(homePage.chessBoard).toHaveAttrContaining('alt', 'worldchess chessboard');
+            await homePage.chessBoard.expectToHaveAttrContaining('alt', 'worldchess chessboard');
             break;
         default:
             throw new Error("Incorrect chessboard color!");
