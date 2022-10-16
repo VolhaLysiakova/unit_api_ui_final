@@ -87,7 +87,7 @@ export class HomePage extends BasePage {
     }
 
     get appearanceButton() {
-        return new Element('[class*="fZPRpj"]') 
+        return new Element('[class*="OWknGlSwdk-k-40a1e1eLQ=="]') 
     }
 
     get standardColorBoard() {
