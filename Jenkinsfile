@@ -26,11 +26,6 @@ pipeline {
                 bat 'npm run ui:test'
             }
         }
-        stage('Opening allure report...') {
-            steps {
-                bat 'npm run ui:report'
-            }
-        }
     }
     post {
         always {
