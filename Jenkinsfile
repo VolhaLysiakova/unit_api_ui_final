@@ -4,7 +4,7 @@ pipeline {
     options {
         ansiColor('xterm')
     }
-    
+
     stages {
         stage('Initiating repository...') {
             steps {
@@ -35,7 +35,7 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: 'ui/assets/allure-results/**/*.*', fingerprint: true
-            clearWs()
+            cleanWs()
         }
     }
 }
