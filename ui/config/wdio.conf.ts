@@ -89,7 +89,7 @@ export const config: Options.Testrunner = {
             prefs: {
                 'intl.accept_languages': 'en,En',
             },
-            args: ['window-size=1500,800', '--disable-gpu']
+            args: ['start-maximized', '--disable-gpu']
         },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
